@@ -1,0 +1,17 @@
+body {
+    margin: 20px 0;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 50px;
+}
+
+.col {
+    background-color: #666;
+    color: #fff;
+}
+
+.col:nth-of-type(2n) {
+    background-color: #999;
+}

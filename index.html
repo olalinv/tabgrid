@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>TabGrid: a table-based grid</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.css">
+    <link rel="stylesheet" href="tabgrid.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <main>
+        <h1>TabGrid, a table-based grid</h1>
+
+        <div class="container guttered">
+
+            <h2>Any number of columns / With or without gutters / Fixed or fluid container</h2>
+
+            <p>1 column</p>
+            <div class="row">
+                <div class="col">1</div>
+            </div>
+
+            <p>2 columns</p>
+            <div class="row">
+                <div class="col">1</div>
+                <div class="col">2</div>
+            </div>
+
+            <p>3 columns</p>
+            <div class="row">
+                <div class="col">1</div>
+                <div class="col">2</div>
+                <div class="col">3</div>
+            </div>
+
+            <p>4 columns</p>
+            <div class="row">
+                <div class="col">1</div>
+                <div class="col">2</div>
+                <div class="col">3</div>
+                <div class="col">4</div>
+            </div>
+
+            <p>5 columns</p>
+            <div class="row">
+                <div class="col">1</div>
+                <div class="col">2</div>
+                <div class="col">3</div>
+                <div class="col">4</div>
+                <div class="col">5</div>
+            </div>
+
+            <p>6 columns</p>
+            <div class="row">
+                <div class="col">1</div>
+                <div class="col">2</div>
+                <div class="col">3</div>
+                <div class="col">4</div>
+                <div class="col">5</div>
+                <div class="col">6</div>
+            </div>
+
+            <p>7 columns</p>
+            <div class="row">
+                <div class="col">1</div>
+                <div class="col">2</div>
+                <div class="col">3</div>
+                <div class="col">4</div>
+                <div class="col">5</div>
+                <div class="col">6</div>
+                <div class="col">7</div>
+            </div>
+
+            <p>8 columns</p>
+            <div class="row">
+                <div class="col">1</div>
+                <div class="col">2</div>
+                <div class="col">3</div>
+                <div class="col">4</div>
+                <div class="col">5</div>
+                <div class="col">6</div>
+                <div class="col">7</div>
+                <div class="col">8</div>
+            </div>
+
+            <p>9 columns</p>
+            <div class="row">
+                <div class="col">1</div>
+                <div class="col">2</div>
+                <div class="col">3</div>
+                <div class="col">4</div>
+                <div class="col">5</div>
+                <div class="col">6</div>
+                <div class="col">7</div>
+                <div class="col">8</div>
+                <div class="col">9</div>
+            </div>
+
+            <p>10 columns</p>
+            <div class="row">
+                <div class="col">1</div>
+                <div class="col">2</div>
+                <div class="col">3</div>
+                <div class="col">4</div>
+                <div class="col">5</div>
+                <div class="col">6</div>
+                <div class="col">7</div>
+                <div class="col">8</div>
+                <div class="col">9</div>
+                <div class="col">10</div>
+            </div>
+
+            <p>11 columns</p>
+            <div class="row">
+                <div class="col">1</div>
+                <div class="col">2</div>
+                <div class="col">3</div>
+                <div class="col">4</div>
+                <div class="col">5</div>
+                <div class="col">6</div>
+                <div class="col">7</div>
+                <div class="col">8</div>
+                <div class="col">9</div>
+                <div class="col">10</div>
+                <div class="col">11</div>
+            </div>
+
+            <p>12 columns</p>
+            <div class="row">
+                <div class="col">1</div>
+                <div class="col">2</div>
+                <div class="col">3</div>
+                <div class="col">4</div>
+                <div class="col">5</div>
+                <div class="col">6</div>
+                <div class="col">7</div>
+                <div class="col">8</div>
+                <div class="col">9</div>
+                <div class="col">10</div>
+                <div class="col">11</div>
+                <div class="col">12</div>
+            </div>
+
+            <p>4 + 8 columns</p>
+            <div class="row">
+                <div class="col col-sm-4">.col-sm-4</div>
+                <div class="col col-sm-8">.col-sm-8</div>
+            </div>
+
+        </div>
+
+        <div class="container guttered">
+
+            <h2>Nested</h2>
+            <p>2 columns, each with 3 columns within</p>
+
+            <div class="row">
+                <div class="col">
+                    <div class="row">
+                        <div class="col">1.1</div>
+                        <div class="col">1.2</div>
+                        <div class="col">1.3</div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="row">
+                        <div class="col">2.1</div>
+                        <div class="col">2.2</div>
+                        <div class="col">2.3</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="container guttered reversed">
+
+            <h2>Reversed</h2>
+            <p>Order columns in reverse (without push / pull)</p>
+
+            <div class="row">
+                <div class="col">1</div>
+                <div class="col">2</div>
+                <div class="col">3</div>
+                <div class="col">4</div>
+                <div class="col">5</div>
+                <div class="col">6</div>
+                <div class="col">7</div>
+                <div class="col">8</div>
+                <div class="col">9</div>
+                <div class="col">10</div>
+                <div class="col">11</div>
+                <div class="col">12</div>
+            </div>
+
+        </div>
+
+        <div class="container guttered">
+
+            <h2>Push / Pull</h2>
+            <p>Move columns to any other position (extra div for the sake of simplicity)</p>
+
+            <div class="row">
+                <div class="col">
+                    <div class="push-sm-11">1</div>
+                </div>
+                <div class="col">
+                    <div class="push-sm-9">2</div>
+                </div>
+                <div class="col">
+                    <div class="push-sm-7">3</div>
+                </div>
+                <div class="col">
+                    <div class="push-sm-5">4</div>
+                </div>
+                <div class="col">
+                    <div class="push-sm-3">5</div>
+                </div>
+                <div class="col">
+                    <div class="push-sm-1">6</div>
+                </div>
+                <div class="col">
+                    <div class="pull-sm-1">7</div>
+                </div>
+                <div class="col">
+                    <div class="pull-sm-3">8</div>
+                </div>
+                <div class="col">
+                    <div class="pull-sm-5">9</div>
+                </div>
+                <div class="col">
+                    <div class="pull-sm-7">10</div>
+                </div>
+                <div class="col">
+                    <div class="pull-sm-9">11</div>
+                </div>
+                <div class="col">
+                    <div class="pull-sm-11">12</div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="container guttered">
+
+            <h2>Offsets</h2>
+            <p>Just leave columns empty to move columns to the right</p>
+
+            <div class="row">
+                <div class="col"></div>
+                <div class="col">1</div>
+                <div class="col">2</div>
+                <div class="col">3</div>
+            </div>
+
+        </div>
+
+    </main>
+</body>
+
+</html>
